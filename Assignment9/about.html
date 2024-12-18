@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - How to Create a Collage</title>
+    <style>
+      
+        body {
+            font-family: "Arial", sans-serif;
+            background-color: #f3fc91;
+            margin: 0;
+        }
+
+        nav {
+            float: right;
+            padding: 10px 20px;
+        }
+        nav a {
+            text-decoration: none;
+            padding: 10px;
+            color: #3f16c8;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        h1 {
+            text-align: center;
+            color: #3f16c8;
+            margin: 20px 0;
+        }
+      
+        .video-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; 
+            gap: 20px; 
+            padding: 20px;
+        }
+
+        .video-container {
+            background-color: #daf5fd; 
+            width: 400px; 
+            height: 300px; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none; 
+        }
+    </style>
+</head>
+<body>
+   
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="about.html">ABOUT</a>
+    </nav>
+
+   
+    <h1>ABOUT COLLAGE MAKING</h1>
+
+  
+    <div class="video-section">
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FKzA5sZBNJw?si=EYVJA28OXz45PzZu" title="about collage" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9EPTM91TBDU?si=E9scilr-CxDK1UlA" title="design principles" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MshxnTQW4qU?si=RZ-PMO32Yf9qG9My" title="design elements" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>

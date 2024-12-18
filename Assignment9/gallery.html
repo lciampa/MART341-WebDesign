@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collage Gallery</title>
+    <style>
+       
+        body {
+            font-family: "Arial", sans-serif;
+            background-color: #f3fc91;
+            margin: 0;
+        }
+       
+        nav {
+            float: right;
+            padding: 10px 20px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            padding: 10px;
+            color: #3f16c8;
+            display: inline-block;
+            font-weight: bold;
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            grid-template-rows: auto; 
+            gap: 20px; 
+            padding: 20px;
+            width: 97%;
+            margin: 0 auto; 
+        }
+
+        .gallery-item {
+            background-color: #daf5fd; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden; 
+            height: 400px; 
+            width: 100%;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain; 
+        }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="about.html">ABOUT</a>
+    </nav>
+
+    
+    <div class="gallery">
+        <div class="gallery-item"><img src="images/workspace.jpg" alt="Collage workspace"></div>
+        <div class="gallery-item"><img src="images/play.jpg" alt="Collage playing with options"></div>
+        <div class="gallery-item"><img src="images/experiment.JPG" alt="Collage experimenting with options"></div>
+        <div class="gallery-item"><img src="images/gathering.JPG" alt="Collage gathering options"></div>
+        <div class="gallery-item"><img src="images/wellversed.jpg" alt="Collage well versed"></div>
+        <div class="gallery-item"><img src="images/missiondefined.jpg" alt="Collage mission defined"></div>
+        <div class="gallery-item"><img src="images/apocalypse.jpg" alt="Collage state of our apocalypse"></div>
+        <div class="gallery-item"><img src="images/farmleague.jpg" alt="Collage farm league"></div>
+        <div class="gallery-item"><img src="images/makesomething.jpg" alt="Collage make something"></div>
+        <div class="gallery-item"><img src="images/rewindthetimes.jpg" alt="Collage rewind the times"></div>
+        <div class="gallery-item"><img src="images/otherfishinspace.jpg" alt="Collage other fish in space"></div>
+        <div class="gallery-item"><img src="images/bitter.jpg" alt="Collage bitter"></div>
+        <div class="gallery-item"><img src="images/bike.jpg" alt="Collage bike"></div>
+        <div class="gallery-item"><img src="images/nomoney.jpg" alt="Collage no money"></div>
+        <div class="gallery-item"><img src="images/amansworld.jpg" alt="Collage a man's world"></div>
+        <div class="gallery-item"><img src="images/freetoroam.jpg" alt="Collage free to roam"></div>
+        <div class="gallery-item"><img src="images/americanwild.jpg" alt="Collage american wild"></div>
+        <div class="gallery-item"><img src="images/faceplant.jpg" alt="Collage face plant"></div>
+        <div class="gallery-item"><img src="images/montanaliving.jpg" alt="Collage montana living"></div>
+        <div class="gallery-item"><img src="images/wherearewegoing.JPG" alt="Collage where are we going"></div>
+        <div class="gallery-item"><img src="images/meltingpot.jpg" alt="Collage melting pot"></div>
+    </div>
+
+</body>
+</html>
