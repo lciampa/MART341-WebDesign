@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Beargrass Formulas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="nav-buttons">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="products.html">PRODUCTS</a>
+            <a href="properties.html">SKINCARE PROPERTIES</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+    </header>
+
+   <!-- Contact -->
+<div class="contact-header">
+    <h1>Contact Beargrass Formulas</h1>
+    <p>If you would like to inquire about our products or have any questions, please fill out the form below.</p>
+</div>
+
+<form action="mailto:schuckcat@gmail.com" method="post" enctype="text/plain">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="10" required></textarea>
+
+    <input type="submit" value="Send Message">
+</form>
+
+
+</body>
+</html>
